@@ -5,8 +5,8 @@ import sushi12 from '../assets/sushi-12.png'
 import sushi11 from '../assets/sushi-11.png'
 import sushi10 from '../assets/sushi-10.png'
 
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // init AOS animation
 AOS.init({
@@ -43,7 +43,7 @@ const cards = [
     {
         imgSrc: sushi11,
         alt: "sushi-11",
-        title: "Originale Sushi",
+        title: "Osaka Style",
         rating: "4.8",
         price: "$21.00",
         active: true
@@ -51,7 +51,7 @@ const cards = [
     {
         imgSrc: sushi10,
         alt: "sushi-10",
-        title: "Ramen Legendo",
+        title: "Classic Ramen",
         rating: "4.8",
         price: "$21.00"
     }
